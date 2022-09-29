@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+/* .nav-bg {
+    background-image: url(../images/prepbg1.jpeg);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+    justify-content: center;
+    position: relative;
+  } */
+  nav {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 15px 10px;
+    text-align: right;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    display: flex;
+}
+nav .logo {
+    max-width: 100px;
+}
+nav ul li {
+    list-style: none;
+    display: inline;
+    padding-right: 30px;
+}
+nav ul li a {
+    text-decoration: none;
+    color: gainsboro;
+    font-size: 19px;
+    font-weight: 400;
+}
+nav ul li a:hover {
+    color: #FFFFFF;
+}
+.navbar-toggler:focus,
+.btn:focus {
+    box-shadow: none;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #ccc;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E6E6E6;
+}
+
